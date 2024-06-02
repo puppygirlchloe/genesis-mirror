@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Made with love, by ppc!
+     Remember that by using this product
+     you're supporting trans-rights :3!
+     FUCK TERFS & FUCK TRANSPHOBIA-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Mirror</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>- Genesis Mirror - </h1>
+    <div class="container">
+        <div class="info">
+            <p><strong>Server IP:</strong> <span id="serverIP"></span></p>
+            <div class="playerBlock" onclick="togglePlayerBlock()">
+                <p><strong id="playerCount">Loading...</strong></p>
+                <ul id="playerList" class="scrollable-list">
+                </ul>
+            </div>
+            <div class="dashboard">
+                <div class="quickc">
+                    <img id="playerHead" src="" alt="Player Head">
+                    <span id="currentAccountText">Welcome back, <strong>${account}</strong>.</span>
+                </div>
+                <br>             
+                 <div class="option-menu">
+                        <button>Modules</button>
+                        <button>Version</button>
+                        <button>Github</button>
+                        <button onclick="terminate()">Exit</button>
+                    <div class="tr">
+                    Made with ❤️ by <b>ppc</b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat-box-container">
+        <div class="chat-box" id="chatBox"></div>
+        <center>
+            <input type="text" class="message-input" id="messageInput" placeholder="Type your message...">
+            <button class="send-button" onclick="sendMessage()">Send</button>
+        </center>
+    </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./scripts/scripts.js"></script>
+</body>
+</html>
+

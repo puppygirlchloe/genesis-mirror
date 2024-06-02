@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsdom": "^24.1.0",
+    "minecraft-search": "^0.0.1",
+    "mineflayer": "^4.20.1",
+    "nodejs": "^0.0.0",
+    "prismarine-viewer": "^1.28.0",
+    "socket.io": "^4.7.5"
+  }
+}
