@@ -14,6 +14,7 @@ It's super easy:
 - **Reconnects Automatically**: Genesis Mirror handles server disconnects and joins back, so you don't miss stuff from a night-long afk session.
    ![Reconnect](https://i.imgur.com/NGsZFeS.png)
 - **Web Panel**: There's a basic web panel to check what's happening on the server, but it's not complete yet.
+    (buttons still don't work)
     ![Panel](https://i.imgur.com/icOQl2R.png)
 
 ## How to Set it Up
