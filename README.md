@@ -2,7 +2,7 @@
 
 ## What's Genesis Mirror?
 
-Genesis Mirror is an AFK bot for Minecraft. It helps you stay logged into servers without any issue.
+Genesis Mirror is an AFK bot for Minecraft. It helps you stay logged into servers without any issues.
 
 ## How Does it Work?
 
