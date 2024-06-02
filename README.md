@@ -19,7 +19,7 @@ It's super easy:
 
 ## How to Set it Up
 
-1. **Get it & Install**: Make sure you've got [Node.js](https://nodejs.org/) installed. Then, download Genesis Mirror from the website.
+1. **DOwnload it!**: Make sure you've got [Node.js](https://nodejs.org/) installed. Then, download Genesis Mirror from the github and unzip it!
 
 2. **Install What it Needs**: Open your terminal and go to the folder where you put Genesis Mirror. Type this to get everything ready:
 
@@ -27,7 +27,7 @@ It's super easy:
     npm install requirements.txt
     ```
 
-3. **Set it Up**: Open the config.json file and put in the IP address of your server. You can tweak other stuff too if you want.
+3. **Set it Up**: Open the config.json file and put in the IP address of your server. You can tweak other stuff too if you want, like the account username.
 
 4. **Start it Up**: To get the bot going, type this in your terminal:
 
